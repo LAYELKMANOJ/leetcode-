@@ -6,7 +6,7 @@ struct ListNode* deleteDuplicates(struct ListNode* head) {
         if (current->val == current->next->val) {
    
             current->next = current->next->next;
-        } else {
+        } else {   
        
             current = current->next;
         }
