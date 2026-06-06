@@ -1,6 +1,3 @@
-
-
-
 void inorder(struct TreeNode* root, int* result, int* returnSize) {
     if (root == NULL)
         return;
