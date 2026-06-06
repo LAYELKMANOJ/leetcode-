@@ -7,6 +7,7 @@ void inorder(struct TreeNode* root, int* result, int* returnSize) {
     inorder(root->right, result, returnSize);
 }
 
+
 int* inorderTraversal(struct TreeNode* root, int* returnSize) {
     int* result = (int*)malloc(100 * sizeof(int));
     *returnSize = 0;
