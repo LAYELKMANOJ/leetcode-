@@ -1,11 +1,5 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
+
+
 
 void inorder(struct TreeNode* root, int* result, int* returnSize) {
     if (root == NULL)
