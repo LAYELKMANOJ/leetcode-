@@ -1,6 +1,3 @@
-/**
- * Return true if n is a happy number, otherwise false.
- */
 
 int sumOfSquares(int n) {
     int sum = 0;
