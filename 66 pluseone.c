@@ -8,7 +8,6 @@ int* plusOne(int* digits, int digitsSize, int* returnSize) {
         }
         digits[i] = 0;
     }
-
     int *result = (int *)malloc((digitsSize + 1) * sizeof(int));
     result[0] = 1;
 
